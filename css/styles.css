@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    padding: 0 15px;
+}
+
+.main-section {
+    position: relative;
+    padding: 155px 0px 50px 0;
+    background-image: url("./../img/1cont_background.png");
+    background-size: cover;
+}
+
+.main-section__logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+} 
+
+.main-section__title {
+    margin-bottom: 32px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+    max-width: 480px;
+}
+
+.main-section__text {
+    margin-bottom: 50px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.main-section__buttons {
+    margin: 0 -8px;
+}
+
+.main-section__link {
+    display: inline-block;
+    width: 156px;
+    height: 48px;    
+}
+
+.main-section__link {
+    margin: 0 8px 20px 8px;
+}
